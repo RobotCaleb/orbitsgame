@@ -34,8 +34,8 @@ def apply_gravity() -> None:
             b2.vel += force * FRAME_TIME / b2.mass * (b1.pos - b2.pos).normalize()
 
 
-screen = pygame.display.set_mode((1920, 1080))
-pygame.display.toggle_fullscreen
+screen = pygame.display.set_mode((1024, 768))
+
 running = True
 
 mouse: Vec2 = Vec2(0)
